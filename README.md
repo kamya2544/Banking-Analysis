@@ -25,10 +25,11 @@ Engagement Timeframe: A new column, Engagement Timeframe, was created in the Cli
 Engagement Days: A new column, Engagement Days, was created in the Client-Banking table to calculate the number of days a client has been with the bank from their joining date.
 
 ### Income Band: The Estimated Income column was binned into Income Band categories:
-< 100000 as "Low"
-< 300000 as "Mid"
+1. < 100000 as "Low" 
+2. < 300000 as "Mid"
 
-### Processing Fees: A new column, Processing Fees, was created based on the Fee Structure. If the fee structure is "high," the processing fee is set to 0.05.
+### Processing Fees: 
+A new column, Processing Fees, was created based on the Fee Structure. If the fee structure is "high," the processing fee is set to 0.05.
 
 ## Calculated Functions (DAX)
 The following DAX functions were utilized to create various measures:
